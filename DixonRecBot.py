@@ -42,8 +42,6 @@ driver.get("https://shop.recsports.oregonstate.edu/booking")
 
 print ("\n\nDixon Recreation Center Reservation Bot, v3.0")
 print("________________________________________________________")
-print ("\n##########################################################################################################\nPlease do not share this bot. If you share it with everyone, it will soon have no use. Additionally, this\nprogram will deactivate"
-+ " itself in the future. I will provide you with a new working copy unless it is being\nshared everywhere. I have no way to stop you from sharing it other than turning it off entirely. Please\nunderstand that I put a lot of time into this and I'm just another broke student who wants to lift.\n##########################################################################################################\n")
 time.sleep(3)
 print ("DixonBot: " + "Time initialized. Current time PST is: ", end="")
 print (current_time[11:19] + ".")
