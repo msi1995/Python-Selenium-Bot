@@ -24,7 +24,6 @@ chrome_options.add_argument("--headless")
 flag = 0
 refreshpage = 0
 dateChanged = False
-timeString = current_time
 
 print("Dixon Rec Bot [Master Copy]\n")
 
