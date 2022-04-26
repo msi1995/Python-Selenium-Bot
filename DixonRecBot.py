@@ -18,14 +18,17 @@ import pytz
 import sys
 import os
 
+
+#SETUP
 current_time = str(datetime.datetime.now())
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 flag = 0
 refreshpage = 0
 dateChanged = False
-
-print("Dixon Rec Bot [Master Copy]\n")
+driver = webdriver.Chrome(resource_path('./webdriver/chromedriver.exe'))
+driver.set_window_size(1920,1080)
+driver.get("https://shop.recsports.oregonstate.edu/booking")
 
 def resource_path(relative_path):
     try:
@@ -34,11 +37,7 @@ def resource_path(relative_path):
         base_path = os.path.dirname(__file__)
     return os.path.join(base_path, relative_path)
 
-driver = webdriver.Chrome(resource_path('./webdriver/chromedriver.exe'))
-#driver = webdriver.Chrome()
-driver.set_window_size(1920,1080)
-driver.get("https://shop.recsports.oregonstate.edu/booking")
-
+print("Dixon Rec Bot [Master Copy]\n")
 print ("\n\nDixon Recreation Center Reservation Bot, v3.0")
 print("________________________________________________________")
 time.sleep(3)
