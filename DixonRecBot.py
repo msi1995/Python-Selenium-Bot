@@ -90,8 +90,6 @@ userTimeSlot2 = int(input("\n["+ current_time[11:19] + "]" + " DixonBot: " + "En
 current_time = str(datetime.datetime.now())
 print("\n\n["+ current_time[11:19] + "]" + " DixonBot: " + "The bot is self-functional now and will start at midnight. You \ndon't need to do anything else. You may minimize, but do not close or resize the Chrome window.\nEnsure your PC/laptop isn't going to sleep/shutdown, either.\n")
 
-#userTimeSlotReal = "/html/body/div[3]/div[1]/div[2]/div[11]/div[2]/div[" + str(userTimeSlot) + "]/div/button"
-#userTimeSlotReal2 = "/html/body/div[3]/div[1]/div[2]/div[11]/div[2]/div[" + str(userTimeSlot2) + "]/div/button"
 userTimeSlotReal = "//*[@id='divBookingSlots']/div[2]/div[" + str(userTimeSlot)  + "]/div/button"
 userTimeSlotReal2 = "//*[@id='divBookingSlots']/div[2]/div[" + str(userTimeSlot2)  + "]/div/button"
 
@@ -162,10 +160,6 @@ if(current_time[11:13] == "00"):
                 EC.presence_of_element_located((By.XPATH, userTimeSlotReal)))
             element.click()
             time.sleep(0.4)
-            ##element = driver.find_element_by_class_name("glyphicon-ok")
-            ##print("Successfully clicked link: " + userTimeSlotReal + "\n")
-            ##print("\n["+ current_time[11:19] + "]" + " DixonBot: " + "I think I was able to book your first choice. Stopping.")
-            ##break;
 
         except:
             current_time = str(datetime.datetime.now())
@@ -177,10 +171,6 @@ if(current_time[11:13] == "00"):
             EC.presence_of_element_located((By.XPATH, userTimeSlotReal2)))
             element.click()
             time.sleep(0.4)
-           ##element = driver.find_element_by_class_name("glyphicon-ok")
-           ##print("Successfully clicked link: " + userTimeSlotReal2 + "\n")
-           ##print("\n["+ current_time[11:19] + "]" + " DixonBot: " + "I think I was able to book your second choice. Stopping.")
-           ##break;
 
         except:
             current_time = str(datetime.datetime.now())
