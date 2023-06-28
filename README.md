@@ -1,6 +1,4 @@
-Created late 2020.
-
-This was my first time using Selenium, and I didn't expect to have this much code. In the future, I would of course parameterize the code/clean it up better than this, but the bot serves no purpose anymore. This was a very quick implementation because I wasn't able to attend the gym until I got it working!
+Created late 2020, mild refactor in 2023, though it's not used anymore.
 
 ----
 
