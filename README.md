@@ -4,7 +4,8 @@ Created late 2020, mild refactor in 2023, though it's not used anymore.
 
 Bundled with ChromeDriver binaries via pyInstaller into executable:
 
-https://i.imgur.com/N7kQ0tl.png
+![image](https://github.com/msi1995/Python-Selenium-Bot/assets/63132397/801edcc7-6346-4a9c-960d-d28f5397cd6c)
+
 
 # Reservation Bot
 I built this bot with Python & Selenium to automate a booking process for my school's gym during the peak of COVID. The bot is specifically built to be able to work on other people's PCs as an all-in-one executable. I did this using pyinstaller and bundling the chomedriver executable with it.
