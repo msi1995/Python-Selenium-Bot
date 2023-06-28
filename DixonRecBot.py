@@ -1,3 +1,10 @@
+## Dixon Rec Center Reservation Bot
+## Author: Doug Lloyd
+##
+## Bot capable of navigating itself through Dixon Recreation Center's booking pages and automatically
+## booking the desired date nearly instantly. Created because reservations were filling too fast and only
+## open at midnight. Packaged into a neat executable with pyInstaller and chromedriver binaries bundled in.
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
