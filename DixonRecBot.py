@@ -1,5 +1,4 @@
 ## Dixon Rec Center Reservation Bot
-## Author: Doug Lloyd
 ##
 ## Bot capable of navigating itself through Dixon Recreation Center's booking pages and automatically
 ## booking the desired date nearly instantly. Created because reservations were filling too fast and only
